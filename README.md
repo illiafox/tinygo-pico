@@ -37,8 +37,6 @@ $ tinygo build -target=pico . # generates st7735.elf file
 
 Compatible with ST7735B, ST7735R and ST7735S chips. Uses SPI1 interface and [Freemono](https://github.com/opensourcedesign/fonts/blob/master/gnu-freefont_freemono/README) font.
 
-------------------------------------
-
 | Pi Pico Pin | Display Pin  |
 |-------------|--------------|
 | VCC         | 5V           |
@@ -50,7 +48,6 @@ Compatible with ST7735B, ST7735R and ST7735S chips. Uses SPI1 interface and [Fre
 | SCK         | GP10 (SCLK)  |
 | LED         | 3.3V         |
 
--------------------------------------
 See [pinout reference](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
 
 ## Troubleshooting
@@ -66,4 +63,4 @@ _**A**: Check whether all things are connected correctly. Pay attention to the S
 
 ## License
 
-The code is licensed under the **GNU General Public License**, as described in the [`LICENSE`](./LICENSE) file.
+The code is licensed under the **GNU General Public License**, as described in the [`LICENSE`](./LICENSE) file. 
