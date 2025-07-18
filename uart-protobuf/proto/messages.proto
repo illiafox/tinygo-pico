@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package whisper;
+
+option go_package = "github.com/illiafox/tinygo-pico/uart-protobuf/proto;whisperpb";
+
+message ServerEvent {
+  oneof event {
+    DisplayEvent display_event = 1;
+  }
+}
+
+message DisplayEvent {
+  string text = 1;
+}
